@@ -8,14 +8,14 @@ def readme():
 
 
 setup(
-    name='TIC_TAC_TOE',
+    name='TIC_TAC_TOE_CLI',
     version='1',
-    packages=['TIC_TAC_TOE'],
+    packages=['TIC_TAC_TOE_CLI'],
     url='https://github.com/GlobalCreativeCommunityFounder/TIC_TAC_TOE',
     license='MIT',
     author='GlobalCreativeCommunityFounder',
     author_email='globalcreativecommunityfounder@gmail.com',
-    description='This package contains implementation of the game "TIC_TAC_TOE" on command line interface'
+    description='This package contains implementation of the game "TIC_TAC_TOE_CLI" on command line interface'
                 ' where the player plays as crosses X\'s and the opponent plays as circles O\'s).',
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -27,7 +27,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "TIC_TAC_TOE=TIC_TAC_TOE.tic_tac_toe:main",
+            "TIC_TAC_TOE_CLI=TIC_TAC_TOE_CLI.tic_tac_toe:main",
         ]
     }
 )

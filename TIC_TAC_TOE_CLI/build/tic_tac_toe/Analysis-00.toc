@@ -1,7 +1,7 @@
 (["D:\\For Vio's New Facebook "
-  'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\tic_tac_toe.py'],
- ["D:\\For Vio's New Facebook Groups\\TIC_TAC_TOE\\TIC_TAC_TOE",
-  "D:\\For Vio's New Facebook Groups\\TIC_TAC_TOE\\TIC_TAC_TOE"],
+  'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\tic_tac_toe.py'],
+ ["D:\\For Vio's New Facebook Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI",
+  "D:\\For Vio's New Facebook Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI"],
  ['codecs'],
  ['d:\\python projects\\new python '
   'project\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
@@ -28,7 +28,7 @@
    'PYSOURCE'),
   ('tic_tac_toe',
    "D:\\For Vio's New Facebook "
-   'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\tic_tac_toe.py',
+   'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\tic_tac_toe.py',
    'PYSOURCE')],
  [('multiprocessing.popen_spawn_posix',
    'D:\\Python 3.8.7\\lib\\multiprocessing\\popen_spawn_posix.py',
@@ -405,8 +405,8 @@
    'D:\\Python 3.8.7\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('tracemalloc', 'D:\\Python 3.8.7\\lib\\tracemalloc.py', 'PYMODULE'),
-  ('_py_abc', 'D:\\Python 3.8.7\\lib\\_py_abc.py', 'PYMODULE'),
   ('stringprep', 'D:\\Python 3.8.7\\lib\\stringprep.py', 'PYMODULE'),
+  ('_py_abc', 'D:\\Python 3.8.7\\lib\\_py_abc.py', 'PYMODULE'),
   ('random', 'D:\\Python 3.8.7\\lib\\random.py', 'PYMODULE'),
   ('os', 'D:\\Python 3.8.7\\lib\\os.py', 'PYMODULE')],
  [('_multiprocessing',
@@ -425,8 +425,8 @@
   ('_asyncio', 'D:\\Python 3.8.7\\DLLs\\_asyncio.pyd', 'EXTENSION'),
   ('_queue', 'D:\\Python 3.8.7\\DLLs\\_queue.pyd', 'EXTENSION'),
   ('_ctypes', 'D:\\Python 3.8.7\\DLLs\\_ctypes.pyd', 'EXTENSION'),
-  ('python38.dll', 'D:\\Python 3.8.7\\python38.dll', 'BINARY'),
   ('VCRUNTIME140.dll', 'D:\\Python 3.8.7\\VCRUNTIME140.dll', 'BINARY'),
+  ('python38.dll', 'D:\\Python 3.8.7\\python38.dll', 'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
@@ -445,25 +445,29 @@
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-utility-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
   ('libssl-1_1.dll', 'D:\\Python 3.8.7\\DLLs\\libssl-1_1.dll', 'BINARY'),
   ('libcrypto-1_1.dll', 'D:\\Python 3.8.7\\DLLs\\libcrypto-1_1.dll', 'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
   ('libffi-7.dll', 'D:\\Python 3.8.7\\DLLs\\libffi-7.dll', 'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
@@ -475,72 +479,48 @@
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
   ('ucrtbase.dll',
    'C:\\Program Files\\Java\\jre1.8.0_241\\bin\\ucrtbase.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-util-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
   ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program '
@@ -550,25 +530,25 @@
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+  ('api-ms-win-core-profile-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
+  ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Program '
@@ -578,14 +558,34 @@
    'C:\\Program '
    'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
+  ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jre1.8.0_241\\bin\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY')],
  [],
  [],
  [('base_library.zip',
    "D:\\For Vio's New Facebook "
-   'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\build\\tic_tac_toe\\base_library.zip',
+   'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\build\\tic_tac_toe\\base_library.zip',
    'DATA')],
  [])

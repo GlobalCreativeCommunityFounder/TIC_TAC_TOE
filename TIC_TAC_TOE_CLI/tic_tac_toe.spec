@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['tic_tac_toe.py'],
-             pathex=["D:\\For Vio's New Facebook Groups\\TIC_TAC_TOE\\TIC_TAC_TOE"],
+             pathex=["D:\\For Vio's New Facebook Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI"],
              binaries=[],
              datas=[],
              hiddenimports=[],

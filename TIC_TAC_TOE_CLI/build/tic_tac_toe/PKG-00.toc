@@ -1,5 +1,5 @@
 ("D:\\For Vio's New Facebook "
- 'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\build\\tic_tac_toe\\PKG-00.pkg',
+ 'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\build\\tic_tac_toe\\PKG-00.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -9,7 +9,7 @@
   'PYZ': 0},
  [('PYZ-00.pyz',
    "D:\\For Vio's New Facebook "
-   'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\build\\tic_tac_toe\\PYZ-00.pyz',
+   'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\build\\tic_tac_toe\\PYZ-00.pyz',
    'PYZ'),
   ('struct', 'D:\\Python 3.8.7\\lib\\struct.pyo', 'PYMODULE'),
   ('pyimod01_os_path',
@@ -34,11 +34,11 @@
    'PYSOURCE'),
   ('tic_tac_toe',
    "D:\\For Vio's New Facebook "
-   'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\tic_tac_toe.py',
+   'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\tic_tac_toe.py',
    'PYSOURCE'),
   ('tic_tac_toe.exe.manifest',
    "D:\\For Vio's New Facebook "
-   'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\build\\tic_tac_toe\\tic_tac_toe.exe.manifest',
+   'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\build\\tic_tac_toe\\tic_tac_toe.exe.manifest',
    'BINARY')],
  True,
  False,

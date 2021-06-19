@@ -1,5 +1,5 @@
 ("D:\\For Vio's New Facebook "
- 'Groups\\TIC_TAC_TOE\\TIC_TAC_TOE\\build\\tic_tac_toe\\PYZ-00.pyz',
+ 'Groups\\TIC_TAC_TOE_CLI\\TIC_TAC_TOE_CLI\\build\\tic_tac_toe\\PYZ-00.pyz',
  [('multiprocessing.popen_spawn_posix',
    'D:\\Python 3.8.7\\lib\\multiprocessing\\popen_spawn_posix.py',
    'PYMODULE'),
@@ -375,7 +375,7 @@
    'D:\\Python 3.8.7\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('tracemalloc', 'D:\\Python 3.8.7\\lib\\tracemalloc.py', 'PYMODULE'),
-  ('_py_abc', 'D:\\Python 3.8.7\\lib\\_py_abc.py', 'PYMODULE'),
   ('stringprep', 'D:\\Python 3.8.7\\lib\\stringprep.py', 'PYMODULE'),
+  ('_py_abc', 'D:\\Python 3.8.7\\lib\\_py_abc.py', 'PYMODULE'),
   ('random', 'D:\\Python 3.8.7\\lib\\random.py', 'PYMODULE'),
   ('os', 'D:\\Python 3.8.7\\lib\\os.py', 'PYMODULE')])
